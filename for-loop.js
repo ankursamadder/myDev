@@ -1,7 +1,11 @@
-let multi = 25
+const cars=["BMW","Volvo","Saab","Ford"]
 
-for (multi; multi > 0; multi--) {
-    console.log(multi);
+n=cars[0]
+
+
+for(n=0;n<=3;n++)
+{
+console.log(cars[n])
 }
 
 /*
