@@ -78,3 +78,8 @@ function getFirstElements(arr, n = 1) {
   console.log(firstElement)
   
   
+
+
+
+
+  
