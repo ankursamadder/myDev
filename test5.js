@@ -59,8 +59,22 @@ console.log(cloneData);
 console.log(cloneData1)
 
 
-
+console.log("------------------------")
 
 /*next answer*/
 
+function getFirstElements(arr, n = 1) {
+    if (!Array.isArray(arr)) {
+      return [];
+    }
+    if (n <= 0) {
+      return [];
+    }
+    return arr.slice(0, n);
+  }
+  const pataNahi = [[7, 9, 0, -2]];
+  const firstElement = getFirstElements(pataNahi[0]);
 
+  console.log(firstElement)
+  
+  
